@@ -7,11 +7,11 @@ const Navigation = () => {
 
     return (
         <nav
-            className="flex justify-between items-center h-[50px] px-5 shadow-md bg-orange-400 text-white dark:bg-gray-700">
+            className="flex justify-between items-center h-[50px] px-5 shadow-md my-custom-style text-white dark:bg-gray-700 transition duration-500 ">
             <h3>
                 GitHubSearch
             </h3>
-            <span onClick={() => setTheme(colorTheme)}>
+            <span onClick={() => setTheme(colorTheme)} >
                 {colorTheme === "light" ?
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
                          stroke="currentColor" className="w-6 h-6">

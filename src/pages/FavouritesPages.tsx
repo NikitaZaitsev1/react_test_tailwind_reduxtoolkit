@@ -10,7 +10,7 @@ const FavouritesPages = () => {
         <div className="flex justify-center pt-10 mx-auto h-screen">
             <ul className="list-none">
                 {favourites.map(f => (
-                    <li className="py-2 px-4 hover: bg-orange-200 hover:text-white transition-colors cursor-pointer" key={f}>
+                    <li className="py-2 px-4 text-lime-500 hover: hover:text-teal-300 transition-colors cursor-pointer" key={f}>
                         <a href={f} target="_blank">{f}</a>
                     </li>
                 ))}
